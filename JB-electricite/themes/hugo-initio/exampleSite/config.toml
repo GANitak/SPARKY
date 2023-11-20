@@ -55,13 +55,7 @@ theme = "hugo-initio"
     footer = true
     sharethis = true
     network = "facebook"
-[[params.social]]
-	title = "twitter"
-	url = "https://twitter.com/nickname"
-    icon = "fab fa-twitter-square"
-    footer = true
-    sharethis = true
-    network = "twitter"
+
 [[params.social]]
 	title = "instagram"
 	url = "https://www.instagram.com/nickname"

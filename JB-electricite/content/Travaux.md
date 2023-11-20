@@ -2,6 +2,7 @@
 title: 'Travaux antérieurs'
 button: 'Travaux'
 draft:  false
+menu: 'lead'
 layout: baseof
 weight: 2
 tags: '["Lumières","Rénovations","Conformités, "Installations]'

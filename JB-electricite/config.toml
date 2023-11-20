@@ -16,23 +16,23 @@ weight = 1
 ############################## navigation ###############################
 
 [[menu.main]]
-  name = 'A propos'
-  pageRef = '/'
+  name = "A propos"
+  pageRef = "/A_propos/"
   weight = 10
 
-[[menus.main]]
+[[menu.main]]
   name = "Travaux"
-  url = "/travaux"
+  url = "/Travaux/"
   weight = 10
 
-[[menus.main]]
-  name = "Prix"
-  url = "/prix"
+[[menu.main]]
+  name = "Tarifs"
+  url = "/Tarifs/"
   weight = 10
 
 [[buttons]]
   name = "Rendez-vous"
-  url = "/Calendly"
+  url = "/Calendly/"
   weight = 5
   pre = "btn btn-primary text-light"
 
@@ -68,6 +68,20 @@ enableMissingTranslationPlaceholders = true
 [[params.social]]
 icon = "fab fa-github"
 link = "https://github.com/GANitak"
+[[params.social]]
+	title = "email"
+	url = "mailto:test@somewhere.com"
+    icon = "fas fa-envelope-square"
+    footer = false
+    sharethis = true
+    network = "email"
+[[params.social]]
+	title = "google+"
+	url = "https://plus.google.com/+nickname"
+    icon = "fab fa-google-plus-square"
+    footer = false
+    sharethis = true
+    network = "googleplus"
 
 # You can add your own taxonomies
 [taxonomies]
