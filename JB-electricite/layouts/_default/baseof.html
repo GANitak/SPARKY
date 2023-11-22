@@ -15,49 +15,15 @@
       {{ partial "head/header.html" . }}
     {{ end }}
  
+<h1 class="entry-title">
+    <div class="reminders">
+        <span class="details" style="color: #A10000;">- Énergiser demain, un rendez-vous à la fois –</span>
+	<div class="entry-meta">
     {{ block "main" . }}
-    
     {{ end }}
-    <table class="greeny-box">
-    <div class="toc">
-        <details>
-            <summary accesskey="t" title="(Alt + t)">
-                <span class="details" style="color: rgb(9, 85, 106);">Table of Contents</span>
-            </summary>
-                <div class="inner">
-
-                   <thead>
-            <tr>
-                <th>
-                    Let the wind show you the way<br/>
-                    I feel that my lonesome is shared <br/>
-                    So am i really alone? <br/>
-                There by the Sunset, coursing it's way in<br/>
-                 the horizon
-            </th>
-        </tr>
-    </thead>
-                <ul>
-                   {{/*       <a href="#create-an-article" aria-label="Create an article">Create an article</a>
-                    </li>
-                        <a href="#website-deployment" aria-label="Website deployment">Website deployment</a>
-                    </li>
-                        <a href="#search-function" aria-label="Search function">Search function</a>
-                    </li>
-                    <li>
-                        <a href="#traffic-statistics" aria-label="Traffic Statistics">Traffic Statistics</a>
-                    </li>  */}}
-                    <li>
-                        <a href="/Travaux" aria-label="Home">Travaux</a>
-                    </li>
-                </ul>
-            </div>
-        </details>
-    </div>
     {{ block "footer" . }}
       {{ partial "footer/footer.html" . }}
     {{ end }}
-
   </body>  
 </html>
 
@@ -121,4 +87,4 @@
 {{/*  
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}        
 </body>
-</html>  */}}  */}}
+</html>  */}}  

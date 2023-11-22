@@ -516,6 +516,22 @@ img {
   color: #000000;
   background: none;
 }
+
+/*********** GANitak CSS Content *************************************/
+.travaux {
+    color: #089568;
+    background: none;
+      display: block;
+  width: 100%;
+  overflow: hidden;
+  margin: 0px 0 25px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 36px;
+  font-size: 2.25rem;
+  letter-spacing: 1px;
+}
+
 /*********************************************************************
 
 

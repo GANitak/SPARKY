@@ -17,23 +17,23 @@ weight = 1
 
 [[menu.main]]
   name = "A propos"
-  pageRef = "/A_propos/"
-  weight = 10
+  url= "/A_propos/"
+  weight = 1
 
 [[menu.main]]
   name = "Travaux"
   url = "/Travaux/"
-  weight = 10
+  weight = 1
 
 [[menu.main]]
   name = "Tarifs"
   url = "/Tarifs/"
-  weight = 10
+  weight = 1
 
 [[buttons]]
   name = "Rendez-vous"
-  url = "/Calendly/"
-  weight = 5
+  url = "https://calendly.com/JB-électricité/rdv"
+  weight = 2
   pre = "btn btn-primary text-light"
 
 #################### default parameters ################################
@@ -43,7 +43,7 @@ weight = 1
 github_repo = "https://github.com/GANitak/Sparky/issues"
 
 # Date format "DD-MM-YYYY"
-DateForm = "12-09-2023"
+#DateForm = "12-09-2023"
 
 #Google Custom Search Engine ID. Remove or comment out to disable search.
 gcs_engine_id = ""

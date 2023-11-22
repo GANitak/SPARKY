@@ -1,6 +1,6 @@
 ---
 title: 'Tarifs'
-menu: 'main'
+#menu: 'main'
 draft:  false
 layout: baseof
 weight: 2
@@ -13,14 +13,17 @@ categories: [
 ]
 ---
 
-![JB_logo_éléc](/images/JBéléctricité.png)
+<h5>-- Coup d’excellence, réserver l'étincelle maintenant! --</h5>
+<h4>Forfait installation</h4>
+<h4>Forfait renovation</h4>
+<h4>Forfait informatique</h4>
+<h4>Forfait custom</h4>
 
-Forfait installation
-Forfait renovation
-Forfait informatique
-Forfait custom
-
+<div class="text-msg">
 Electricien entre Dole et Besançon, pouvant faire vos rénovations électiques, installations électriques, mises en conformités, ventilation, réseaux informatique, disponible sur rendez-vous par téléphone ou email.
 Vous pouvez aussi choisir des jours de disponibilités dans le calendrier "Calendly" à vérifier avec Jordan. Ici ->
-
-![€€€€€€€](/images/prix.png)
+</div>
+<h5>Illuminez votre espace, dynamisez votre journée – Prenez rendez-vous, laissez les étincelles voler à votre façon!
+</h5>
+<h5>![JB_logo_éléc](/assets/images/JBéléctricité.png)</h5>
+![€€€€€€€](assetes/images/prix.png)
