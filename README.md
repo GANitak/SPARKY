@@ -8,8 +8,9 @@ Will tweak some of the theme though
 
 **Status :**
 
-Starting fresh again
 ...In progress...
+
+Got some pages running, a few ideas to get this more dynamic, need to add Netlify, real life pictures from the examples & proper images of Logo ect...
 
 **Mission :**
 
