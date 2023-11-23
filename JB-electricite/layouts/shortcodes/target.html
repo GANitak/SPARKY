@@ -1,0 +1,3 @@
+<!-- layouts/shortcodes/target.html -->
+{{ $target := .Get "target" }}
+<a href="{{ .Get 0 }}" {{ with $target }} target="{{ $target }}" {{ end }}>{{ .Inner | markdownify }}</a>

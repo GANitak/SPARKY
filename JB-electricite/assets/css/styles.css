@@ -12,6 +12,23 @@ body {
 .topspace {
   margin-top: 40px;
 }
+
+body {
+  background-image: url('/images/sparkyWAVEs.png');
+  background-size: cover;
+  background-repeat:space;
+  background-attachment:fixed;/* 'local' is looking good for "sparkySPACE.png,'fixed' is LGood for "sparkyWAVEs.png", (fixed) Ensures the background stays fixed while scrolling */
+}
+
+.header {
+  background-image: url('/images/sparkySPACE.png');
+  background-size: cover;
+  background-repeat:space;
+  background-attachment:fixed;
+}
+
+
+
 /*********************************************************************
 
 
