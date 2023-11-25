@@ -12,11 +12,8 @@ Will tweak some of the theme though
 
 Got some pages running, a few ideas to get this more dynamic, need to add Netlify, real life pictures from the examples & proper images of Logo ect...
 
-<<<<<<< HEAD
-=======
-**REQUIREMENT** : DARKREADER **on** find [DARKREADER](https://github.com/darkreader/darkreader) extension for your browser
+**REQUIREMENT** : DarkReader **on** find [DARKREADER](https://github.com/darkreader/darkreader) extension for your browser
 
->>>>>>> c75a602 (updates CSS, config.toml, layouts)
 **Mission :**
 
 To help people find an awesome electrician To help myself, by practicing web development
