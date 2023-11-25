@@ -1,5 +1,5 @@
 ---
-title: 'Travaux antérieurs'
+title: 'Travaux'
 button: 'Travaux'
 draft:  false
 menu: 'Travaux'

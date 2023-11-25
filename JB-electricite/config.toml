@@ -1,9 +1,17 @@
 baseURL = 'https://JB-électricité.fr/'
+
+# Language (code)settings
 languageCode = 'en-us'
 title = 'JB-électricité'
 theme = 'hugo-initio'
-favicon = "/static/images/JBéléctricité.png" 
+favicon = "/images/JBéléctricité.png" 
 enableRobotsTXT = true
+# Useful when translating.
+enableMissingTranslationPlaceholders = true
+
+# Will give values to .Lastmod etc.
+enableGitInfo = true
+enableEmoji = true
 
 [languages]
 [languages.en]
@@ -13,7 +21,7 @@ languageName ="French"
 # Weight used for sorting.
 weight = 1
 
-############################## navigation ###############################
+############################## NAVIGATION ###############################
 
 [[menu.main]]
   name = "A propos"
@@ -39,8 +47,11 @@ weight = 1
 #################### default parameters ################################
 
 [params]
-author = "GANitak"
+author = "GANitak @github/GANitak"
 background = "/static/images/sparkyWAVES.png"
+showFooterContact = true
+showFooterFollowMe = true
+
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 github_repo = "https://github.com/GANitak/Sparky/issues"
 
@@ -63,9 +74,7 @@ prism_syntax_highlighting = false
 defaultTheme = "dark"
 #defaultTheme: auto # to switch between dark or light according to browser theme
 
-# Useful when translating.
-enableMissingTranslationPlaceholders = true
-############################# social site ########################
+############################# SOCIALS ########################
 
 [[params.social]]
 icon = "fab fa-github"
@@ -116,3 +125,6 @@ taxonomyPageHeader = ["tags", "categories"]
 resampleFilter = "CatmullRom"
 quality = 75
 anchor = "smart"
+
+# Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar
+navbar_logo = false

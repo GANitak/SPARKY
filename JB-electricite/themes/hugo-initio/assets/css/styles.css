@@ -5,7 +5,7 @@ body {
   font-size: 15px;
   font-size: 0.9375rem;
   font-weight: bold;
-  font-family: "Open sans", Helvetica, Arial, sans-serif, Ubuntu, monospace, cursive;
+  font-family: Courier New, "Open sans", Helvetica, Arial, sans-serif, Ubuntu, monospace, cursive;
   color: #979595;
   padding: 0;
 }
@@ -14,9 +14,7 @@ body {
 }
 /*********************************************************************
 
-
                             Navigation in header
-
 
 **********************************************************************/
 .navbar {
@@ -110,9 +108,7 @@ body {
 }
 /****************************************************************************************
 
-
                                      Sidebar special Nav
-
 
 *****************************************************************************************/
 .nav-side {
@@ -127,11 +123,11 @@ body {
   color: #f392b4;
 }
 .nav-side > li > a:hover {
-  color: #bd1550;
+  color: #e80404;
   background: none;
 }
 .nav-side > li.active > a {
-  color: #bd1550;
+  color: #e80404;
 }
 /*********************************************************************
 
@@ -166,7 +162,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Open sans", Helvetica, Arial, sans-serif;
+  font-family: Courier New, "Open sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #333333;
 }
@@ -191,10 +187,10 @@ h5 {
   font-size: 1.25rem;
 }
 a {
-  color: #7b0808;
+  color: #A10000;
 }
 a:hover {
-  color: #e93675;
+  color: #e80404;
 }
 .lead {
   font-weight: 300;
@@ -218,9 +214,7 @@ a:hover {
 }
 /*********************************************************************
 
-
                                 HEADER
-
 
 **********************************************************************/
 #head {
@@ -232,7 +226,7 @@ a:hover {
 }
 
 #head img {
-  display: block;
+  display: flex;
   width: 140px;
   height: 140px;
   overflow: hidden;
@@ -241,11 +235,11 @@ a:hover {
 }
 
 #head img.img-circle {
-  border-radius: 50%
+  border-radius: 50%;
 }
 
 #head img.img-rounded {
-  border-radius: 20px;
+  border-radius: 90px;
 }
 
 #head img.img-square {
@@ -262,7 +256,7 @@ a:hover {
   color: #333333;
 }
 #head .tagline {
-  display: block;
+  display: flex;
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1.2em;
@@ -532,7 +526,9 @@ img {
   letter-spacing: 1px;
 }
 
-/******************** 404 page ************************/ 
+/**********************************************************************
+                                  404 PAGE
+/**********************************************************************/
 .not-found {
     position: flex;
     left: 0;
@@ -557,12 +553,10 @@ img {
     font-size: 40px;
     font-weight: 700;
 }
-
+/*********************************************************************/
 /*********************************************************************
 
-
-                                 BLOG
-
+                                 WEBSITE
 
 **********************************************************************/
 .section-title,
@@ -650,7 +644,9 @@ img {
   width: 100%;
   text-align: right;
 }
+/********************/
 /* Posts navigation */
+/********************/
 #nav-below {
   position: fixed;
   top: 48%;
@@ -716,9 +712,7 @@ footer.entry-meta .meta-in {
 }
 /*********************************************************************
 
-
                                 COMMENTS
-
 
 **********************************************************************/
 #comments {
@@ -820,7 +814,7 @@ footer.entry-meta .meta-in {
 #footer {
   background: #232323;
   padding: 30px 0 0 0;
-  font-size: 12px;
+  font-size: 14px;
   color: #999;
 }
 #footer a {
@@ -834,7 +828,7 @@ footer.entry-meta .meta-in {
   font-size: 0.9375rem;
   text-transform: uppercase;
   color: #ccc;
-  margin: 0 0 20px;
+  margin: 0 0 90px;
 }
 #underfooter {
   background: #191919;
@@ -863,6 +857,7 @@ footer.entry-meta .meta-in {
 @media (min-width: 1200px) {
   .container {
     max-width: 1080px;
+
   }
 }
 /*********************************************************************

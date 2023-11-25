@@ -5,12 +5,12 @@ body {
   font-size: 15px;
   font-size: 0.9375rem;
   font-weight: bold;
-  font-family: "Open sans", Helvetica, Arial, sans-serif, Ubuntu, monospace, cursive;
+  font-family: Courier New, "Open sans", Helvetica, Arial, sans-serif, Ubuntu, monospace, cursive;
   color: #979595;
   padding: 0;
 }
 .topspace {
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 body {
@@ -27,13 +27,8 @@ body {
   background-attachment:fixed;
 }
 
-
-
 /*********************************************************************
-
-
                             Navigation in header
-
 
 **********************************************************************/
 .navbar {
@@ -59,8 +54,8 @@ body {
   -moz-background-clip: padding;
   border-radius: 0;
   background-clip: padding-box;
-  font-family: "Open sans", Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-family: Courier New, "Open sans", Helvetica, Arial, sans-serif;
+  font-weight: 600;
   text-transform: uppercase;
 }
 .navbar-collapse .navbar-nav {
@@ -126,10 +121,7 @@ body {
   color: #000000;
 }
 /****************************************************************************************
-
-
                                      Sidebar special Nav
-
 
 *****************************************************************************************/
 .nav-side {
@@ -144,11 +136,11 @@ body {
   color: #f392b4;
 }
 .nav-side > li > a:hover {
-  color: #bd1550;
+  color: #e80404;
   background: none;
 }
 .nav-side > li.active > a {
-  color: #bd1550;
+  color: #e80404;
 }
 /*********************************************************************
 
@@ -183,8 +175,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Open sans", Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-family: Courier New, "Open sans", Helvetica, Arial, sans-serif;
+  font-weight: 100;
   color: #333333;
 }
 h1 {
@@ -198,6 +190,7 @@ h2 {
 h3 {
   font-size: 30px;
   font-size: 1.875rem;
+  font-weight: 600;
 }
 h4 {
   font-size: 24px;
@@ -208,10 +201,10 @@ h5 {
   font-size: 1.25rem;
 }
 a {
-  color: #7b0808;
+  color: #A10000;
 }
 a:hover {
-  color: #e93675;
+  color: #e80404;
 }
 .lead {
   font-weight: 300;
@@ -234,11 +227,7 @@ a:hover {
   height: auto;
 }
 /*********************************************************************
-
-
                                 HEADER
-
-
 **********************************************************************/
 #head {
   background-color: #f4f4f4;
@@ -249,7 +238,7 @@ a:hover {
 }
 
 #head img {
-  display: block;
+  display: flex;
   width: 140px;
   height: 140px;
   overflow: hidden;
@@ -258,7 +247,7 @@ a:hover {
 }
 
 #head img.img-circle {
-  border-radius: 50%
+  border-radius: 20%;
 }
 
 #head img.img-rounded {
@@ -270,7 +259,7 @@ a:hover {
 }
 
 #head .title {
-  font-family: Alice, Georgia, serif;
+  font-family: 'Courier New', Courier, monospace, Georgia, serif;
   font-size: 49px;
   font-size: 3.0625rem;
 }
@@ -306,16 +295,14 @@ a:hover {
 }
 /*********************************************************************
 
-
                                 CONTENT
-
 
 **********************************************************************/
 img {
   max-width: 100%;
 }
 .btn {
-  font-size: 12px;
+  font-size: 25px;
   font-size: 0.75rem;
   text-decoration: none;
   text-transform: uppercase;
@@ -338,18 +325,19 @@ img {
   transition-duration: 0.2s;
   border: 0 none;
   padding: 12px 35px;
-  text-shadow: 0 1px 0px #780d33;
+  text-shadow: 0 1px 0px #470000;
 }
 .btn-primary {
   color: #fff;
-  background-color: #bd1550;
+  background-color: #A10000;
+  box-shadow: #000000;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active {
   color: #fff;
-  background-color: #e61f65;
+  background-color: #e80404;
 }
 .btn-action {
   font-weight: bold;
@@ -362,7 +350,7 @@ img {
 .btn-action:active,
 .btn-action.active {
   color: #bd1550;
-  border-color: #bd1550;
+  border-color: #e80404;
 }
 .btn-lg {
   padding: 15px 60px;
@@ -494,7 +482,7 @@ img {
   font-size: 0.75rem;
   text-transform: uppercase;
   text-shadow: 0 1px 0px #780d33;
-  background: #bd1550;
+  background: #e80404;
   color: white;
 }
 .thumbnail img {
@@ -535,9 +523,7 @@ img {
 }
 /*********************************************************************
 
-
-                                 BLOG
-
+                                 WEBSITE
 
 **********************************************************************/
 .section-title,
@@ -547,8 +533,8 @@ img {
   overflow: hidden;
   margin: 0px 0 25px;
   text-align: center;
-  font-weight: 300;
-  text-transform: uppercase;
+  font-weight: 600;
+  text-transfORM: uppercase;
   font-size: 36px;
   font-size: 2.25rem;
   letter-spacing: 1px;
@@ -641,7 +627,7 @@ img {
   -moz-background-clip: padding;
   border-radius: 3px;
   background-clip: padding-box;
-  font-family: "Open sans", Helvetica, Arial, sans-serif;
+  font-family: Courier New, "Open sans", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
@@ -683,7 +669,7 @@ footer.entry-meta .meta-in {
   padding-bottom: 0;
   margin: 0;
   border-bottom: none;
-  text-align: left;
+  text-align: center;
 }
 .page-header .page-title {
   margin-top: 0;
@@ -691,9 +677,7 @@ footer.entry-meta .meta-in {
 }
 /*********************************************************************
 
-
                                 COMMENTS
-
 
 **********************************************************************/
 #comments {
@@ -745,7 +729,7 @@ footer.entry-meta .meta-in {
   color: #333333;
 }
 #comments .comment-meta a:hover {
-  color: #bd1550;
+  color: #e80404;
 }
 #comments .comment-meta .author {
   margin: 0 20px 0 0;
@@ -787,9 +771,7 @@ footer.entry-meta .meta-in {
 }
 /*********************************************************************
 
-
                                 FOOTER
-
 
 **********************************************************************/
 #footer {
@@ -842,9 +824,7 @@ footer.entry-meta .meta-in {
 }
 /*********************************************************************
 
-
                                 SHARE THIS
-
 
 **********************************************************************/
 .st-custom-button[data-network] {
