@@ -65,10 +65,10 @@ body {
 }
 .navbar-default {
   background-color: #ffffff;
-  border-color: #A10000;
+  border-color: #C73834;
 }
 .navbar-default .navbar-nav > li > a {
-  color:#A10000;
+  color:#C73834;
   text-align: center;
   text-shadow: #000000;
 }
@@ -187,7 +187,7 @@ h5 {
   font-size: 1.25rem;
 }
 a {
-  color: #A10000;
+  color: #C73834;
 }
 a:hover {
   color: #e80404;
@@ -511,48 +511,6 @@ img {
   background: none;
 }
 
-/*********** GANitak CSS Content *************************************/
-.travaux {
-    color: #089568;
-    background: none;
-      display: block;
-  width: 100%;
-  overflow: hidden;
-  margin: 0px 0 25px;
-  text-align: center;
-  font-weight: 300;
-  font-size: 36px;
-  font-size: 2.25rem;
-  letter-spacing: 1px;
-}
-
-/**********************************************************************
-                                  404 PAGE
-/**********************************************************************/
-.not-found {
-    position: flex;
-    left: 0;
-    right: 0;
-    align-items: center;
-    justify-content: center;
-    color: brown;
-    height: 80%;
-    font-size: 40px;
-    font-weight: 700;
-}
-
-.back-to-home {
-    display: block;
-    left: 0px;
-    right: 0;
-    text-align: right;
-    align-items: center;
-    justify-content: center;
-    color: #369f14;
-    height: 80%;
-    font-size: 40px;
-    font-weight: 700;
-}
 /*********************************************************************/
 /*********************************************************************
 

@@ -1,11 +1,28 @@
 <header id="header">
   <div id="head" class="parallax" data-parallax-speed="2" style="background-image:url('{{ "images/sparkySPACE.png" | absURL }}'); background-position: center 5px;">
   <!-- other content within the div -->
-  <link rel="icon" href="{{ "images/JBelectricite.png" | absURL }}" type="image/png">
+  <link rel="icon" href="{{ "images/LogoJBelectricite.png" | absURL }}" type="image/png">
   <link rel="stylesheet" href="{{ "css/styles.css" | absURL }}">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
 </div>
     <h1 id="logo" class="text-center">
-      <img class='img-{{ .Site.Params.avatarclass | default "circle"}}' src="{{ .Site.BaseURL }}/images/JBelectricite.png" alt="JB-élec">{{ .Site.Params.avatar }}
+      <img class='img-{{ .Site.Params.avatarclass | default "circle"}}' src="{{ .Site.BaseURL }}/images/LogoJBelecticite250.png" alt="JB-élec">{{ .Site.Params.avatar }}
       <span class="title">{{ .Site.Params.name }}</span>
       <span class="tagline">{{ .Site.Params.description }}<br>
         <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>

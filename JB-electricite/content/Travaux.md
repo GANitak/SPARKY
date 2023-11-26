@@ -18,9 +18,7 @@ weight: 1
  -->
  <h5>-- Illuminez votre espace en toute confiance! --</h5>
 
-<h4 id="travaux" >Example de travaux rénovations :
-</h4>
-
+Travaux d’installation électrique dans tous locaux
 <h6>![photo](privatehouseLights.png)</h6>
 <h6>![photo](privatehouseChauffeEAU.png)</h6>
 ....

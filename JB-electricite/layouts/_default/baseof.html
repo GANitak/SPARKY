@@ -5,19 +5,19 @@
   	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
   	<meta name="description" content="Site web électricien France">
   	<meta name="author"      content="{{ .Site.Author }}">
-    
+
     {{ partial "head/head.html" . }}
   </head>
   
   <body class="home">
-
+           
     {{ block "header" . }}
-      {{ partial "head/header.html" . }}
+      {{ partial "head/header.html" . }} 
     {{ end }}
  
 <h1 class="entry-title">
     <div class="reminders">
-        <div class=h3 style="color: #A10000;">- Énergiser demain, un rendez-vous à la fois –</span>
+        <div class=h3 style="color: #C73834;">- Énergiser demain, un rendez-vous à la fois –</span>
 	<div class="entry-meta">
     {{ block "main" . }}
     {{ end }}
@@ -26,65 +26,3 @@
     {{ end }}
   </body>  
 </html>
-
-
-{{/*  
-<i>What now</i>
-<main class="main">
-    {{- block "main" . }}{{ end }}
-    
-                <ul>  */}}
-                   {{/*       <a href="#create-an-article" aria-label="Create an article">Create an article</a>
-                    </li>
-                        <a href="#website-deployment" aria-label="Website deployment">Website deployment</a>
-                    </li>
-                        <a href="#search-function" aria-label="Search function">Search function</a>
-                    </li>
-                    <li>
-                        <a href="#traffic-statistics" aria-label="Traffic Statistics">Traffic Statistics</a>
-                    </li>  */}}
-                {{/*      <li>
-                        <a href="/" aria-label="Home">Home</a>
-                    </li>
-                    <li>
-                        <a href="/posts/network" aria-label="Network">Network</a>
-                    </li>
-                    <li>
-                        <a href="/posts/security" aria-label="Security">Security</a>
-                    </li>
-                    <li>
-                        <a href="/posts/journal" aria-label="Journal">Journal</a>
-                    </li>
-                    <li>
-                        <a href="/posts/neat" aria-label="Neat">Neat</a>
-                    </li>
-                    <li>
-                        <a href="/posts/quotes" aria-label="Quotes">Quotes</a>
-                    </li>     
-                    <li>
-                        <a href="/error404" aria-label="error404">error404</a>
-                    </li>
-                </ul>
-            </div>
-        </details>
-    </div>
-        {{/*  <h1>Post for the baseof.html</h1>  */}}
-{{/*          <strong>How to make things work</strong>
-        <thead>
-            <tr>
-                <th>
-                    Let the wind show you the way<br/>
-                    I feel that my lonesome is shared <br/>
-                    So am i really alone? <br/>
-                There by the Sunset, coursing it's way in<br/>
-                 the horizon
-            </th>
-        </tr>
-    </thead>
-</tbody>
-</table>  */}}
-{{/*  Static content across the baseof.html page  */}}
-{{/*  
-    {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}        
-</body>
-</html>  */}}  

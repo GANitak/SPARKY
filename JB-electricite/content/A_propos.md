@@ -20,8 +20,11 @@ Electricien entre Dole et Besançon, pouvant faire vos rénovations électiques,
 Vous pouvez aussi choisir des jours de disponibilités dans le calendrier 
 [Calendly](https://calendly.com/JB-électricité/rdv) à vérifier avec Jordan.
 
+
 ![Pros&Particuliers_Neuf&Rénovation](/PP&NR.png)
 
  Électrisez votre monde avec précision et ponctualité – Augmentez vos solutions électriques! –
 
 <h5>-- Priorisez la sécurité, fixez votre rendez-vous --</h5>
+
+<a href= "https://app.panneaupocket.com/ville/1294251261-rans-39700?panneau=66633129">Plus d'info, ville de rans
