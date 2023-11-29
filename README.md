@@ -12,11 +12,10 @@ Will tweak some of the theme though
 
 Got some pages running, need to add Netlify, real life pictures for work examples & review text and links with the electrician
 To do : 
-- take out Calendly option
-- fix light mode colors
-- create a space for photos 
+- travaux images to sort out
+- text colors
 - favicon
-- fix contact
+- fix contact footer
 
 **REQUIREMENT** : 
 hugo v0.92.2+extended linux/amd64 
