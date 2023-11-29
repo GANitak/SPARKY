@@ -50,9 +50,10 @@ weight = 1
 author = "GANitak @github/GANitak"
 background = "/static/images/sparkyWAVES.png"
 showFooterContact = true
-showFooterFollowMe = false
+showFooterFollowMe = true
 phone = "0607814263"
-favicon = "/images/favicon-96x96.png"
+address = "26 Grande Rue, 39700 Rans"
+favicon = "/static/images/favicon-96x96.png"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 github_repo = "https://github.com/GANitak/Sparky/issues"

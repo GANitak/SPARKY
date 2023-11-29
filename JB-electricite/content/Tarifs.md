@@ -22,16 +22,9 @@ categories: [
 
 Electricien entre Dole et Besançon, pouvant faire vos rénovations électiques, installations électriques, mises en conformités, ventilation, réseaux informatique, disponible sur rendez-vous par téléphone ou email.
 
-Vous pouvez aussi choisir des jours de disponibilités dans le calendrier 
-[Calendly](https://calendly.com/JB-électricité/rdv) à vérifier avec Jordan.
-
 <h5>Illuminez votre espace, dynamisez votre journée 
 </h5>
 
 ![JB_logo_éléc](/JBelectricite.png) 
 
-– [Prenez rendez-vous](https://calendly.com/JB-electricite/rdv) –
-
-<!-- {{% target "_blank" %}} apparently this is not a thing possible in Hugo
- -->
- <!-- {{% target "_blank" %}} -->
+– [Prenez rendez-vous](/rendez-vous) –

@@ -3,7 +3,7 @@
 		<div class="row">
 			{{ if .Site.Params.showFooterContact }}
 			<div class="col-md-3 widget">
-				<h3 class="widget-title">{{ i18n "footer_contact_title" }}</h3>
+				<h3 class="widget-title">{{ "Contact" }}</h3>
 				<div class="widget-body">
 					<p>{{ if .Site.Params.phone }}{{ .Site.Params.phone }}<br>{{ end }}
 					{{ if .Site.Params.email }}<a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a><br>{{ end }}
@@ -18,7 +18,7 @@
 			<div class="col-md-3 widget">
 				<h3 class="widget-title">{{ i18n "footer_followme_title" }}</h3>
 				<div class="widget-body">
-					<p class="follow-me-icons">
+					<p class="follow-me-icons"><a href= "https://app.panneaupocket.com/ville/1294251261-rans-39700?panneau=66633129"  target="_blank"></a>>Plus d'info, ville de rans
             {{ range .Site.Params.social }}
 							{{ if .footer }}
 								<a href="{{ .url }}" target="_blank"><i class="{{ .icon }} fa-1x"></i></a>
@@ -29,7 +29,7 @@
 			</div>
 			{{ end }}
 
-			{{ if .Site.Params.showFooterTextWidget }}
+			{{/*  {{ if .Site.Params.showFooterTextWidget }}
 			<div class="col-md-3 widget">
 				<h3 class="widget-title">{{ i18n "footer_text_title" }}</h3>
 				<div class="widget-body">
@@ -41,11 +41,11 @@
 					</p>
 				</div>
 			</div>
-			{{ end }}
+			{{ end }}  */}}
 
 			{{ if .Site.Params.showFooterFormWidget }}
 			<div class="col-md-3 widget">
-				<h3 class="widget-title">{{ i18n "footer_form_title" }}</h3>
+				<h3 class="widget-title">{{ "Email" }}</h3>
 				<div class="widget-body">
 					<p>{{ if .Site.Params.phone }}{{ .Site.Params.phone }}<br>{{ end }}
 					{{ if .Site.Params.email }}<a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a><br>{{ end }}
@@ -63,14 +63,6 @@
 <footer id="underfooter">
 	<div class="container">
 		<div class="row">
-
-			<div class="col-md-6 widget">
-				<div class="widget-body">
-					<p>{{ if .Site.Params.address}}{{ .Site.Params.address }}{{ end }}</p>
-				</div>
-			</div>
-
-			<div class="col-md-6 widget">
 				<div class="widget-body">
 					<p class="text-right">
                                                 {{ if .Site.Copyright }}

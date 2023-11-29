@@ -19,10 +19,7 @@ categories: [
 
 Par email : jordanblanc.elec@gmail.com
 
-Par téléphone : 0607814263
-
-Vous pouvez aussi choisir des jours de disponibilités dans le calendrier 
-[Calendly](https://calendly.com/JB-électricité/rdv) à vérifier avec Jordan.
+Par téléphone : <a href ="tel:06 07 81 42 63">06.07.81.42.63
 
 <h5> Localisation:</h5>
 <iframe

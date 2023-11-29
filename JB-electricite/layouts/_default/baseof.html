@@ -13,12 +13,14 @@
            
     {{ block "header" . }}
       {{ partial "head/header.html" . }} 
-    {{ end }}
+   
  
 <h1 class="entry-title">
-    <div class="reminders">
+    <div class="entry-meta">
         <div class=h3 style="color: #C73834;">- Énergiser demain, un rendez-vous à la fois –</span>
-	<div class="entry-meta">
+        </div> 
+        {{ end }}
+	
     {{ block "main" . }}
     {{ end }}
     {{ block "footer" . }}

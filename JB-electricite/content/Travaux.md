@@ -14,14 +14,15 @@ categories: [
 ]
 weight: 1
 ---
-<!-- <h1 id="logo" class="text-center">JB
- -->
+
  <h5>-- Illuminez votre espace en toute confiance! --</h5>
 
-Travaux d’installation électrique dans tous locaux
-<h6>![photo](privatehouseLights.png)</h6>
-<h6>![photo](privatehouseChauffeEAU.png)</h6>
-....
+<h3>Travaux d’installation électrique dans tous locaux</h3>
 
-<h6>Programmez votre étincelle de génie aujourd’hui</h6>
-<h6>Your Safety First, Book with Assurance</h6>
+![Câbles](/2023-11-08travaux.png)
+
+![Tableau](/2023-11-04travauxtableau.jpg)
+
+
+<h4>Programmez votre étincelle de génie aujourd’hui</h4>
+<h4>Your Safety First, Book with Assurance</h4>
