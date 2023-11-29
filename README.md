@@ -13,7 +13,9 @@ Will tweak some of the theme though
 Got some pages running, a few ideas to get this more dynamic, need to add Netlify, real life pictures from the examples & need to take off the Calendly option, review text and links with the electrician
 
 
-**REQUIREMENT** : DarkReader **on** find [DARKREADER](https://github.com/darkreader/darkreader) extension for your browser
+**REQUIREMENT** : 
+hugo v0.92.2+extended linux/amd64
+DarkReader **on** find [DARKREADER](https://github.com/darkreader/darkreader) extension for your browser
 
 **Mission :**
 
