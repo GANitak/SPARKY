@@ -10,11 +10,17 @@ Will tweak some of the theme though
 
 ...In progress...
 
-Got some pages running, a few ideas to get this more dynamic, need to add Netlify, real life pictures from the examples & need to take off the Calendly option, review text and links with the electrician
-
+Got some pages running, need to add Netlify, real life pictures for work examples & review text and links with the electrician
+To do : 
+- take out Calendly option
+- fix light mode colors
+- create a space for photos 
+- favicon
+- fix contact
 
 **REQUIREMENT** : 
-hugo v0.92.2+extended linux/amd64
+hugo v0.92.2+extended linux/amd64 
+
 DarkReader **on** find [DARKREADER](https://github.com/darkreader/darkreader) extension for your browser
 
 **Mission :**
