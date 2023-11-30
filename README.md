@@ -6,29 +6,29 @@ Hugo theme is hugo-initio
 
 Will tweak some of the theme though
 
-**Status :**
+**STATUS :**
 
 ...In progress...
 
 Got some pages running, need to add Netlify, real life pictures for work examples & review text and links with the electrician
 To do : 
-- travaux images to sort out
-- text colors
-- favicon
-- fix contact footer
+- figure out header, logo
+- travaux page images to fix+add 
+- add content to landing page
+- fix entry-meta class h3 for visibility
 
 **REQUIREMENT** : 
 hugo v0.92.2+extended linux/amd64 
 
-DarkReader **on** find [DARKREADER](https://github.com/darkreader/darkreader) extension for your browser
+DarkReader **ON** -> find [DARKREADER](https://github.com/darkreader/darkreader) extension for your browser
 
-**Mission :**
+**MISSION :**
 
 To help people find an awesome electrician
 To help myself, by practicing web development
 
 Need to talk with me the web developer, put a date in -> [Calendly](https://calendly.com/ganitak/quick-coffee-talk)
 
-Rule :
+**RULE :**
 
 Be a decent Human being.
