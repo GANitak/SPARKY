@@ -12,16 +12,14 @@ categories: [
 ]
 ---
 
-![JB_logo_éléc](/JBelectricite.png)
+![JB_logo_éléc](/JBelectricite.png) ![Pros&Particuliers_Neuf&Rénovation](/PP&NR.png)
+
 ---
-Electricien entre Dole et Besançon, pouvant faire vos rénovations électiques, installations électriques, mises en conformités, ventilation, réseaux informatique, disponible sur rendez-vous par téléphone ou email.
+Electricien entre Dole et Besançon (25)</br>
+pouvant faire vos rénovations électiques, installations électriques</br>
+mises en conformités, ventilation, réseaux informatique</br>
+Disponible sur rendez-vous par téléphone ou email.
 
-![Pros&Particuliers_Neuf&Rénovation](/PP&NR.png)
-
- Électrisez votre monde avec précision et ponctualité 
-
+<h5>Électrisez votre monde avec précision et ponctualité</h5>
 – Augmentez vos solutions électriques –
-
 <h5>-- Priorisez la sécurité, fixez votre rendez-vous --</h5>
-
-<!-- <a href= "https://app.panneaupocket.com/ville/1294251261-rans-39700?panneau=66633129">Plus d'info, ville de rans -->

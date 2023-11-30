@@ -15,13 +15,18 @@ enableEmoji = true
 
 [languages]
 [languages.en]
-description = "Electricien entre Dole & Besançon (25)"
+description = ""
 languageName ="French"
 
 # Weight used for sorting.
 weight = 1
 
 ############################## NAVIGATION ###############################
+
+[[menu.main]]
+  name = "JB-électricité"
+  url= "/"
+  weight = 1
 
 [[menu.main]]
   name = "A propos"
@@ -38,22 +43,19 @@ weight = 1
   url = "/Tarifs/"
   weight = 1
 
-[[buttons]]
-  name = "Rendez-vous"
-  url = "https://calendly.com/JB-électricité/rdv"
-  weight = 2
-  pre = "btn btn-primary text-light"
-
 #################### default parameters ################################
 
 [params]
 author = "GANitak @github/GANitak"
+description = "Electrician (25)"
 background = "/static/images/sparkyWAVES.png"
+email = "jordanblanc.elec@gmail.com"
 showFooterContact = true
 showFooterFollowMe = true
-phone = "0607814263"
+phone = "06.07.81.42.63"
 address = "26 Grande Rue, 39700 Rans"
-favicon = "/static/images/favicon-96x96.png"
+year = 2023
+favicon = "/images/favicon-96x96.png"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 github_repo = "https://github.com/GANitak/Sparky/issues"
@@ -92,7 +94,7 @@ footer = false
     network = "email"
 [[params.social]]
 	title = "google+"
-	url = "https://plus.google.com/+JB electricité"
+	url = "https://plus.google.com/+name-of-account"
     icon = "fab fa-google-plus-square"
     footer = true
     sharethis = true
@@ -131,4 +133,4 @@ quality = 75
 anchor = "smart"
 
 # Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar
-navbar_logo = false
+navbar_logo = true
