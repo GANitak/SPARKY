@@ -26,7 +26,7 @@ weight = 1
 [[menu.main]]
   name = "JB-électricité"
   url= "/"
-  weight = 1
+  weight = 3
 
 [[menu.main]]
   name = "A propos"
@@ -34,21 +34,27 @@ weight = 1
   weight = 1
 
 [[menu.main]]
-  name = "Travaux"
-  url = "/Travaux/"
+  name = "Galerie"
+  url = "/Galerie/"
   weight = 1
 
 [[menu.main]]
-  name = "Tarifs"
-  url = "/Tarifs/"
+  name = "Devis"
+  url = "/Devis/"
   weight = 1
+
+[[menu.main]]
+  name = "Rendez-vous"
+  url = "/Rendez-vous/"
+  weight = 1
+
 
 #################### default parameters ################################
 
 [params]
 author = "GANitak @github/GANitak"
 description = "Electrician (25)"
-background = "/static/images/sparkyWAVES.png"
+background = ""
 email = "jordanblanc.elec@gmail.com"
 showFooterContact = true
 showFooterFollowMe = true
