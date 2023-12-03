@@ -6,7 +6,6 @@ tags: '["Rénovations","Budgets","Conformité]'
 description: >
   RDV, disponibilité de l'électricien
 ---
-
 <h5>Chargé d’excellence, câblé pour plus de commodité</h5>
 <h5>Électrifiez votre espace, réservez dès aujourd’hui!</h5>
 

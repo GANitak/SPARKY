@@ -4,7 +4,7 @@ html {
 
 body,
 .logo {
-  font-size: 15px;
+  font-size: 18px;
   font-size: 0.9375rem;
   font-weight: bold;
   font-family: Courier New, "Open sans", Helvetica, Arial, sans-serif, Ubuntu, monospace, cursive;
@@ -32,8 +32,13 @@ body {
   /* 'local' is looking good for "sparkySPACE.png,'fixed' is LGood for "sparkyWAVEs.png", (fixed) Ensures the background stays fixed while scrolling */
 }
 
+.logo-link {
+  display: block;
+  width: 100%;
+}
+
 .header {
-  /*   background-image: url('/images/sparkySPACE.png');*/
+  /* background-image: url('/images/sparkySPACE.png');*/
   background-size: cover;
   background-repeat: space;
   background-attachment: fixed;
@@ -356,6 +361,7 @@ a:hover {
                                 CONTENT
 
 **********************************************************************/
+
 img {
   max-width: 80%;
 }
@@ -611,7 +617,7 @@ img {
 
 /*********************************************************************
 
-                                 WEBSITE
+WEBSITE
 
 **********************************************************************/
 .section-title,
@@ -710,7 +716,6 @@ img {
 .meta-nav:hover,
 .more-link:hover {
   color: #333333;
-  text-decoration: underline;
 }
 
 .more-link {
@@ -796,7 +801,7 @@ footer.entry-meta .meta-in {
 
 /*********************************************************************
 
-                                COMMENTS
+COMMENTS
 
 **********************************************************************/
 #comments {
@@ -911,7 +916,7 @@ footer.entry-meta .meta-in {
 
 /*********************************************************************
 
-                                FOOTER
+FOOTER
 
 **********************************************************************/
 #footer {
@@ -942,6 +947,32 @@ footer.entry-meta .meta-in {
   text-transform: uppercase;
   color: #ccccccde;
   margin: 0 0 15px;
+}
+
+.widget:hover {
+  animation: shake 1s;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(4px);
+  }
+
+  50% {
+    transform: translateX(-4px);
+  }
+
+  75% {
+    transform: translateX(3px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
 
 #underfooter {

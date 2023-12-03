@@ -1,29 +1,12 @@
 <header id="header">
 {{/*  <div id="head" class="parallax" data-parallax-speed="2" style="background-image:url('{{ "images/sparkySPACE.png" | absURL }}'); background-position: center 5px;">
   </div>*/}}<!-- other content within the div -->
-<div id="logoheader" class="logo">
   <link rel="stylesheet" href="{{ "css/styles.css" | absURL }}">
   <link rel="icon" href="{{ " images/LogoJBelectricite250.png" | absURL }}" type="image/png">
-</div>
-  <h1 id="logo" class="logo">
-    <a href="{{ .Site.BaseURL }}/">
-    <img class='img-{{ .Site.Params.avatarclass | default ""}}' src="{{ .Site.BaseURL }}/images/LogoJBelecticite250.png" alt="JB-élec">
-    </a>
 
-{{/*      <img class='img-{{ .Site.Params.avatarclass | default ""}}' src="{{ .Site.BaseURL }}/images/LogoJBelecticite250.png" alt="JB-élec">{{ .Site.Params.avatar }}
-  */}}      <span class="title">{{ .Site.Params.name }}</span>
-      <span class="tagline">{{ .Site.Params.description }}<br>
-       <a href="mailto:{{ .Site.Params.email }}" alt="email">{{ .Site.Params.email }}</a>
-      </span>
-   </h1>
-      <a href="https://JB-électricité.fr/" title="JB-électricité" class="logo-header">
-        <h1 style class="logoheader:url('{{ "images/LogoJBelectricite250.png" | absURL }});">
-      
-      {{/*  <span class="tagline">{{ .Site.Params.description }}<br>
-        <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
-      </span>  */}}
-        </h1>
-      </a>
+{{/*  <a href="https://JB-électricité.fr/" title="JB-électricité" class="logo-header">
+  <h1 style class="logoheader:url('{{ "images/LogoJBelectricite250.png" | absURL }});">
   </h1>
+</a>  */}}
 {{ partial "head/menu.html" . }}
 </header>

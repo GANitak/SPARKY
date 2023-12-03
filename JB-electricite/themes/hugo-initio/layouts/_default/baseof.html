@@ -19,22 +19,22 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    {{ partial "head/head.html" . }}
-  </head>
-  
-  <body class="home">
+</head>
 
-    {{ block "header" . }}
-      {{ partial "head/header.html" . }}
-    {{ end }}
- 
-    {{ block "main" . }}
-    {{ end }}
-    
-    {{ block "footer" . }}
-      {{ partial "footer/footer.html" . }}
-    {{ end }}
-  </body>
+<body class="home">
   
+  {{ block "header" . }}
+  {{ partial "head/header.html" . }}
+  {{ end }}
+  
+  {{ block "main" . }}
+  {{ end }}
+  
+  {{ block "footer" . }}
+  {{ partial "footer/footer.html" . }}
+  {{ end }}
+</body>
+
+ {{ partial "head/head.html" . }}
 </html>
 {{/*  Changing settings here won't affect rendering  */}}
