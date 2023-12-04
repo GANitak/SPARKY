@@ -13,10 +13,14 @@ Customized colors & display
 Got some pages running, need to add Netlify, real life pictures for work examples & review text and links with the electrician. 
 BRAND theme : *mainly white, red, black, gray*
 
-To do : 
+To do :
+- fix SVG
+- create new animated buttons to pages on the sides
 - figure out header
-- logo fix to scroll
+- fix background color (white)
 - design landing page
+- add clicks to next images
+- get text from electricien
 - legal links
 
 **REQUIREMENT build from source** :
