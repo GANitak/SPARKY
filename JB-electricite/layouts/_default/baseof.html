@@ -5,21 +5,42 @@
   	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
   	<meta name="description" content="Site web électricien Franche-Comté">
   	<meta name="author"      content="{{ .Site.Author }}">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:site_name" content="JB Électricité">
+    <meta property="og:title" content="J/B Électricité">
+    <meta property="og:description" content="J/B Électricité votre électricien sur la Franche-Comté">
+    <meta property="og:url" content="https://JB-électricité.fr/">
+    <meta property="og:image" content="https://JB-électricité.fr/images/SVGLogoJBelectricite.svg">
+    
+{{ partial "head/head.html" . }}
+</head>
 
-    {{ partial "head/head.html" . }}
-  </head>
-  
-  <body class="home" style="background-color: #ffffff;">
-               
-    {{ block "header" . }}
-      {{ partial "head/header.html" . }}
-<h1 id="logo" class="logo">
-  <a href="{{ .Site.BaseURL }}/">
-    <img class='img-{{ .Site.Params.avatarclass | default ""}}' src="{{ .Site.BaseURL }}/images/LogoJBelecticite250.png" alt="JB-élec">
-  </a>
-<a class="logo-link" href="mailto:{{ .Site.Params.email }}" alt="email">{{ .Site.Params.email }}</a>
+<body class="home" style="background-color: #ffffff;">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+
+        <div class="logo-header">
+            <div id="logo">
+              <a href="{{ .Site.BaseURL }}/">
+                <img class='img-{{ .Site.Params.avatarclass | default ""}}' src="{{ .Site.BaseURL }}/images/LogoJBelecticite.png" alt="JB-électricité logo-home">
+              </a>
+            <a class="logo-link" href="mailto:{{ .Site.Params.email }}" alt="email">{{ .Site.Params.email }}</a>
+        </div>
+    </div>    
+  {{ block "header" . }}
+  {{ partial "head/header.html" . }}
   {{/*  <h3 style="color: #000000;">- Énergiser demain, un rendez-vous à la fois –</span>
-  */}}
+    */}}<div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        
+        <div id="share">
+          {{ if .Params.Share }}
+          {{ partial "sharethis.html" . }}
+              
+					{{ end }}
+				</div>
+
+			</div>
  </h1> 
   <h1 class="entry-title">
     <div class="entry-meta"></div>
@@ -27,6 +48,7 @@
       
       {{ block "main" . }}
       {{ end }}
+
       {{ block "footer" . }}
       {{ partial "footer/footer.html" . }}
     {{ end }}

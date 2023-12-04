@@ -2,7 +2,7 @@ baseURL = 'https://JB-électricité.fr/'
 
 # Language (code)settings
 languageCode = 'en-us'
-title = 'JB-électricité'
+title = 'J/B Électricité'
 theme = 'hugo-initio'
 favicon = "/images/JBéléctricité.png" 
 enableRobotsTXT = true
@@ -24,7 +24,7 @@ weight = 1
 ############################## NAVIGATION ###############################
 
 [[menu.main]]
-  name = "JB-électricité"
+  name = "JB-Électricité"
   url= "/"
   weight = 3
 
