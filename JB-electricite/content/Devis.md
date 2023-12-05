@@ -12,9 +12,12 @@ description: >
 
 Electricien sur la Franche-Comté, pouvant faire vos rénovations électiques, installations électriques, mises en conformités, ventilation, réseaux informatique, disponible sur rendez-vous par téléphone ou email.
 
-<h5>Illuminez votre espace, dynamisez votre journée 
-</h5>
+JB Électricité est prêt à vous aider dans la planification de nouvelles conceptions, toute en assurant la sécurité, les mises en conformité et le dépannage de vos systèmes électriques.</br>
+N’hésitez pas à nous contacter pour plus d’informations !
 
-![JB_logo_éléc](/JBelectricite.png) 
+<h5>Illuminez votre espace, dynamisez votre journée</h5>
+<br>
 
 – [Prenez rendez-vous](/rendez-vous) –
+
+<h2>-- JB-Électricité --</h2>

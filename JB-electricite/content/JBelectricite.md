@@ -7,4 +7,5 @@ description: >
 ---
 
 Electricien sur la Franche-Comté</br>
-<h5>-- Priorisez la sécurité, fixez votre rendez-vous --</h5>
+
+-- Priorisez la sécurité, fixez votre [rendez-vous](/rendez-vous) --
