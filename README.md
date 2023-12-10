@@ -16,11 +16,11 @@ BRAND theme : *mainly white, red, black, gray*
 To do :
 - fix SVG
 - create new animated buttons to pages on the sides
-- figure out header
+- figure out header/logo
 - fix background color (white)
 - design landing page
 - add clicks to next images
-- get text from electricien
+- get text from electrician
 - legal links
 
 **REQUIREMENT build from source** :
