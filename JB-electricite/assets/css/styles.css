@@ -41,7 +41,7 @@ body {
 }
 
 .header {
-  /* background-image: url('/images/sparkySPACE.png');*/
+  /* background-image: url('/images/sparkySPACE.png'); was the rejected dark theme */
   background-size: cover;
   background-repeat: space;
   background-attachment: fixed;
@@ -49,7 +49,6 @@ body {
 
 /*********************************************************************
                             NAVigation in HEADER
-
 **********************************************************************/
 .navbar {
   border-width: 4px 0;
@@ -84,9 +83,11 @@ body {
 }
 
 .navbar-collapse .navbar-nav {
+  font-size: 16px;
+  font-family: Ubuntu, 'Courier New', Courier, monospace;
   float: none;
   margin: 0 auto;
-  text-align:right;
+  text-align:center;
 }
 
 .navbar-collapse .navbar-nav>li {
@@ -95,7 +96,7 @@ body {
 }
 
 .navbar-collapse .navbar-nav>li>a {
-  padding: 20px 30px;
+  padding: 0px 20px;
 }
 
 .dropdown ul.dropdown-menu {
@@ -697,20 +698,21 @@ WEBSITE
 
 .entry-content h2 {
   line-height: 1.2;
-  font-size: 30px;
+  font-size: 25px;
   font-size: 1.875rem;
   padding-top: 20px;
   margin-bottom: 20px;
 }
 
 .entry-content p {
-  font-size: 20px;
+  font-size: 18px;
   color: #000000;
+  text-transform:initial;
 }
 
 .meta-nav,
 .more-link {
-  font-family: Georgia, serif;
+  font-family:'Courier New', Courier, monospace;
   font-style: italic;
   font-weight: bold;
   color: #666666;
@@ -723,7 +725,7 @@ WEBSITE
 }
 
 .more-link {
-  display: block;
+  display: -ms-flexbox;
   width: 100%;
   text-align: right;
 }

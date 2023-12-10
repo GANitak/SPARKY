@@ -7,9 +7,10 @@ description: >
   A propos, explique qui est l'électricien et ce qu'il peut faire pour vous sur la Franche-Comté (25-70-39)
 ---
 
-![JB_logo_éléc](/JBelectricite.png) ![Pros&Particuliers_Neuf&Rénovation](/PP&NR.png)
+<!-- ![JB_logo_éléc](/JBelectricite.png)  -->
 
-Electricien sur la Franche-Comté</br>
+Electricien sur</br>
+la Franche-Comté</br>
 <h5>-- Priorisez la sécurité, fixez votre rendez-vous --</h5>
 
 Jordan répond aux besoins des particuliers, des professionnels et des collectivités.</br>
