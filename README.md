@@ -14,12 +14,13 @@ Got some pages running, need to add Netlify, real life pictures for work example
 BRAND theme : *mainly white, red, black, gray*
 
 To do :
-- fix SVG
-- create new animated buttons to pages on the sides
-- figure out header/logo
-- fix background color (white)
+- logo button to redo
 - design landing page
+- fix background color (white)
+- police change, take off UPPERCASE
+- create new animated buttons to pages on the sides
 - add clicks to next images
+- Galerie: new pictures and new display
 - get text from electrician
 - legal links
 
