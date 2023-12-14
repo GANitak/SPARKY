@@ -46,7 +46,6 @@ body {
   background-repeat: space;
   background-attachment: fixed;
 }
-
 /*********************************************************************
                             NAVigation in HEADER
 **********************************************************************/
@@ -251,6 +250,7 @@ h4 {
 h5 {
   font-size: 20px;
   font-size: 1.25rem;
+  font-style: italic;
 }
 
 a {
@@ -627,7 +627,7 @@ WEBSITE
 **********************************************************************/
 .section-title,
 .entry-title {
-  display: block;
+  display: inline-flex;
   width: 100%;
   overflow: hidden;
   margin: 0px 0 25px;
@@ -708,6 +708,7 @@ WEBSITE
   font-size: 18px;
   color: #000000;
   text-transform:initial;
+  font-weight: 600;
 }
 
 .meta-nav,
@@ -936,6 +937,18 @@ FOOTER
 
 .row {
   margin: 0 0 0px 0;
+  
+}
+
+.logo-top {
+  display: flex;
+  position: fixed ;/* 
+  position: left="200px";
+  position: top="64px"; */
+/*   width: auto;
+  position-top: 136px;
+  position-right: 0px; */
+
 }
 
 #footer a {
