@@ -30,26 +30,36 @@
 
   {{/*  <h3 style="color: #000000;">- Énergiser demain, un rendez-vous à la fois –</span>
     */}}<div class="row">
-{{/*  <a href="{{ ref . "rendez-vous.md" | absURL }}/">
-      <img class='logo-top' src=" {{ ref . "images/LogoJBelecticite.png" | absURL }} height="59px" alt="JB-électricité logo-home">
-</a>  */}}
- {{/*     <div class="col-sm-8 col-sm-offset-2">
+      
+      
+      {{/*    <a href="{{ ref . "rendez-vous.md" | absURL }}/">
+        <img class='logo-top' src=" {{ ref . "images/LogoJBelecticite.png" | absURL }} height="59px" alt="JB-électricité logo-home">
+      </a>  */}}
+      {{/*     <div class="col-sm-8 col-sm-offset-2">
         <div id="share">
           {{ if .Params.Share }}
           {{ partial "sharethis.html" . }}
               
 					{{ end }}
 				</div>
-		</div>  */}}
-{{/*  {{ end }}
+      </div>  */}}
+      {{/*  {{ end }}
   */}}      
       {{ block "main" . }}
   <h1 class="entry-title">
     <div class="entry-meta"></div>
       {{ end }}
-
+    <h1 class="prev-next">
+      {{ with .Next }}
+      <a href="{{ .RelPermalink }}">&#11178</a>
+      {{ end }}
+      {{ with .Prev }}
+      <a href="{{ .RelPermalink }}">&#11179</a>
+    </h1>
+      {{ end }}
+      
       {{ block "footer" . }}
       {{ partial "footer/footer.html" . }}
-    {{ end }}
+      {{ end }}
   </body>  
 </html>

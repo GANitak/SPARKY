@@ -26,7 +26,7 @@ weight = 1
 [[menu.main]]
   name = "JB-Électricité"
   url= "/JBelectricite"
-  weight = 3
+  weight = 5
 
 [[menu.main]]
   name = "A propos"
@@ -36,17 +36,22 @@ weight = 1
 [[menu.main]]
   name = "Galerie"
   url = "/Galerie/"
-  weight = 1
+  weight = 3
 
 [[menu.main]]
   name = "Devis"
   url = "/Devis/"
-  weight = 1
+  weight = 2
 
 [[menu.main]]
   name = "Rendez-vous"
   url = "/Rendez-vous/"
-  weight = 1
+  weight = 4
+
+[[menu.main]]
+  name = "Témoignages"
+  url = "/Témoignages"
+  weight = 6
 
 
 #################### default parameters ################################
