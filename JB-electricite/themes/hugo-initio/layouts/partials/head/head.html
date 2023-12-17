@@ -1,3 +1,4 @@
+{{/* Changing settings here won't affect rendering */}}
 	<title>{{ .Title }}</title>
 	<link rel="shortcut icon" href="{{ .Site.BaseURL }}{{ .Site.Params.favicon }}">
 
@@ -18,3 +19,5 @@
   {{ if .Site.Params.customsharethis }}
 	<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property={{ .Site.Params.sharethis.property }}&product=custom-share-buttons"></script>
 	{{ end }}
+{{/* Changing settings here won't affect rendering */}}
+

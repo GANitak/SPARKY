@@ -15,26 +15,24 @@
 {{ partial "head/head.html" . }}
 </head>
 
-<body class="home" style="background-color: #ffffff;">
+<body class="body" style="background-color: #ffffff;">
   <nav class="navbar navbar-default">
-    <div class="container-fluid">
-
-        <div class="logo-header">
-            <div id="logo">
+{{/*    {{ block "header" . }}
+  */}}  {{ partial "head/header.html" . }}   
+  <div class="logo-header">
               <a href="{{ .Site.BaseURL }}/">
-                <img class='img-{{ .Site.Params.avatarclass | default ""}}' src="{{ .Site.BaseURL }}images/LogoJBelecticite.png" height="150px" alt="JB-électricité logo-home">
+                <img class='img' src="{{ .Site.BaseURL }}images/LogoJBelecticite.png" height="150px" alt="JB-électricité logo-home">
               </a>
-            <a class="logo-link" href="mailto:{{ .Site.Params.email }}" alt="email">{{ .Site.Params.email }}</a>
-        </div>
-    </div>    
-  {{ block "header" . }}
-  {{ partial "head/header.html" . }}
+            </div>
+
+{{/*           <a class="logo-link" href="mailto:{{ .Site.Params.email }}" alt="email">{{ .Site.Params.email }}</a>
+  */}}       
+
   {{/*  <h3 style="color: #000000;">- Énergiser demain, un rendez-vous à la fois –</span>
     */}}<div class="row">
-<a href="{{ .Site.BaseURL }}/">
-      <img class='logo-top' type="button" src=" {{ .Site.BaseURL
-        }}images/LogoJBelecticite.png" height="59px" alt="JB-électricité logo-home">
-</a>
+{{/*  <a href="{{ ref . "rendez-vous.md" | absURL }}/">
+      <img class='logo-top' src=" {{ ref . "images/LogoJBelecticite.png" | absURL }} height="59px" alt="JB-électricité logo-home">
+</a>  */}}
  {{/*     <div class="col-sm-8 col-sm-offset-2">
         <div id="share">
           {{ if .Params.Share }}
@@ -43,8 +41,8 @@
 					{{ end }}
 				</div>
 		</div>  */}}
-{{ end }}
-      
+{{/*  {{ end }}
+  */}}      
       {{ block "main" . }}
   <h1 class="entry-title">
     <div class="entry-meta"></div>

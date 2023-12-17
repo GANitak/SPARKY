@@ -4,17 +4,16 @@ html {
 
 body {
   font-size: 18px;
-  font-size: 0.9375rem;
-  font-weight: bold;
+/*   font-size: 0.9375rem;
+ */  font-weight: bold;
   font-family: Courier New, "Open sans", Helvetica, Arial, sans-serif, Ubuntu, monospace, cursive;
 /*   color: #979595;*/
   color:#ffffff;
-  padding: 0;
-  margin-top: 0.5%;
+  padding: 0px;
+  margin-top: 0px;
   margin-bottom: 0.5%;
-  border-width: 4px 0;
-  border-color: #C73834;
-}
+/*   border-color: #aa262d;
+ */}
 
 .topspace {
   margin-top: 0.5px;
@@ -32,25 +31,25 @@ body {
   /* 'local' is looking good for "sparkySPACE.png,'fixed' is LGood for "sparkyWAVEs.png", (fixed) Ensures the background stays fixed while scrolling */
 /* } */
 
-.logo-link, .logo{
-  display: zero;
-  width: 100%;
-  font-display: flex;
+.logo-link, .logo-header, .center{
+/*   display: contents;
+ */  font-display: flex;
   font-size: 16px;
-  background-color: ;
+  background-color: none;
+  text-align: right;
 }
 
-.header {
-  /* background-image: url('/images/sparkySPACE.png'); was the rejected dark theme */
+/* .header {
+  background-image: url('/images/sparkySPACE.png'); was the rejected dark theme
   background-size: cover;
   background-repeat: space;
   background-attachment: fixed;
-}
+} */
 /*********************************************************************
                             NAVigation in HEADER
 **********************************************************************/
 .navbar {
-  border-width: 4px 0;
+  border-width: 2px 0 4px ;
   -webkit-border-radius: 0;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 0;
@@ -95,7 +94,7 @@ body {
 }
 
 .navbar-collapse .navbar-nav>li>a {
-  padding: 0px 20px;
+  padding: 10px 20px;
 }
 
 .dropdown ul.dropdown-menu {
@@ -109,11 +108,11 @@ body {
 
 .navbar-default {
   background-color: #d3d3d3;
-  border-color: #C73834;
+  border-color: #aa262d;
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #C73834;
+  color: #aa262d;
   text-align: center;
   text-shadow: #000000;
 }
@@ -145,7 +144,7 @@ body {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #C73834;
+  background-color: #aa262d;
 }
 
 .navbar-default .navbar-collapse,
@@ -254,7 +253,7 @@ h5 {
 }
 
 a {
-  color: #C73834;
+  color: #aa262d;
 }
 
 a:hover {
@@ -366,7 +365,7 @@ a:hover {
 **********************************************************************/
 
 img {
-  max-width: 80%;
+  max-width: 70%;
 }
 
 .btn {
@@ -400,7 +399,7 @@ img {
 
 .btn-primary {
   color: #fff;
-  background-color: #C73834;
+  background-color: #aa262d;
   box-shadow: #000000;
 }
 
@@ -627,7 +626,7 @@ WEBSITE
 **********************************************************************/
 .section-title,
 .entry-title {
-  display: inline-flex;
+  display: block;
   width: 100%;
   overflow: hidden;
   margin: 0px 0 25px;
@@ -942,10 +941,9 @@ FOOTER
 
 .logo-top {
   display: flex;
-  position: fixed ;/* 
-  position: left="200px";
-  position: top="64px"; */
-/*   width: auto;
+  position: fixed;
+ /*  position: left="200px";
+  position: top="64px";
   position-top: 136px;
   position-right: 0px; */
 
