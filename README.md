@@ -17,7 +17,6 @@ To do :
 - logo button to redo
 - design landing page
 - fix background color (white)
-- police change, take off UPPERCASE
 - create new animated buttons to pages on the sides
 - add clicks to next images
 - Galerie: new pictures and new display
